@@ -11,6 +11,8 @@ import './App.css'
 // import CounterOne from './Components/CustomHookTwo/CounterOne';
 // import CounterTwo from './Components/CustomHookTwo/CounterTwo';
 import ReducerSimpleAction from './Components/Reducer Hook/ReducerSimpleaction';
+import UseReducerComplexState from './Components/Reducer Hook/UseReducerComplexState';
+import MultipleReducer from './Components/Reducer Hook/MultipleReducer';
 
 function App() {
 
@@ -41,8 +43,14 @@ function App() {
 <CounterOne/>
 <CounterTwo/>
 <hr /> */}
-<h4>Reducer Hook Simple action</h4>
+<h4>Reducer Hook Simple state action</h4>
 <ReducerSimpleAction/>
+<hr />
+<h4>Reducer Hook with complex state action </h4>
+<UseReducerComplexState/>
+<hr />
+<h4>Multiple Reducer Hook with complex state action </h4>
+<MultipleReducer/>
 
     </>
   )
