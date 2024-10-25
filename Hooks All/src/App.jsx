@@ -1,16 +1,15 @@
-
-import './App.css'
-import OnChange from './Components/OnChange';
-import UseEffect from './Components/UseEffect';
-import CleanUpUseEffect from './Components/CleanUpUseEffect';
-import ContextA from './Components/Use Context/ContextA';
-import UseRef from './Components/Use Ref/useRef';
+import "./App.css";
+// import OnChange from './Components/OnChange';
+// import UseEffect from './Components/UseEffect';
+// import CleanUpUseEffect from './Components/CleanUpUseEffect';
+// import ContextA from './Components/Use Context/ContextA';
+// import UseRef from './Components/Use Ref/useRef';
+import ParentCallback from "./Components/useCallback/ParentCallBack";
 
 function App() {
-
   return (
     <>
-     <OnChange/>
+      {/* <OnChange/>
      <hr />
      <h4>Use Effect</h4>
      <UseEffect/>
@@ -22,9 +21,12 @@ function App() {
      <ContextA/>
      <hr />
      <h4>Use Ref</h4>
-     <UseRef/>
+     <UseRef/> */}
+      <hr />
+      <h4>useCallback And useMemo</h4>
+      <ParentCallback />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
