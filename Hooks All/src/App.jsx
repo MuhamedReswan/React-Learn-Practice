@@ -8,8 +8,9 @@ import './App.css'
 // import ParentCallback from './Components/useCallback/ParentCallBack';
 // import DocTitleOne from './Components/Custom Hook/DocTitleOne';
 // import DocTitleTwo from './Components/Custom Hook/DocTitleTwo';
-import CounterOne from './Components/CustomHookTwo/CounterOne';
-import CounterTwo from './Components/CustomHookTwo/CounterTwo';
+// import CounterOne from './Components/CustomHookTwo/CounterOne';
+// import CounterTwo from './Components/CustomHookTwo/CounterTwo';
+import ReducerSimpleAction from './Components/Reducer Hook/ReducerSimpleaction';
 
 function App() {
 
@@ -35,10 +36,14 @@ function App() {
 <h4>Custom Hook</h4>
 <DocTitleOne/>
 <DocTitleTwo/>
-<hr /> */}
+<hr />
 <h4>Custom Hook 2 Counter</h4>
 <CounterOne/>
 <CounterTwo/>
+<hr /> */}
+<h4>Reducer Hook Simple action</h4>
+<ReducerSimpleAction/>
+
     </>
   )
 }
